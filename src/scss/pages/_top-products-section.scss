@@ -1,0 +1,70 @@
+.top-products-section {
+    background-color: #fff;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.filter-dropdown-container {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.sort-control select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.top-products-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.top-product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+}
+
+.top-product-item .value-percentage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-product-item .value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2f54eb;
+}
+
+.top-product-item .percentage {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #28c76f;
+}
+
+.top-product-item .percentage.negative {
+    color: #ea5455;
+}
+
+.top-product-item .label {
+    margin-top: 8px;
+    font-size: 0.95em;
+    color: #333;
+}

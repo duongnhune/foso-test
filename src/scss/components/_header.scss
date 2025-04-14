@@ -1,0 +1,128 @@
+.header {
+  gap: 24px;
+  background: var(--new-blue, #003DA0);
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navigation {
+  display: flex;
+  padding: 4px 8px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-top: 2px solid transparent;
+  transition: border-top-color 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.navigation a:hover {
+  border-top-color: white;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2); /* Sử dụng rgba cho màu trong suốt */
+  gap: 4px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  color: white;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  padding: 0;
+}
+
+.search-input::placeholder {
+  color: #ced4da;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.icons a {
+  cursor: pointer;
+}
+
+.user-avatar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  text-decoration: underline;
+  padding: 5px;
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-avatar-dropdown .dropdown-menu.open {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f0f0f0;
+  color: #003DA0;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+}

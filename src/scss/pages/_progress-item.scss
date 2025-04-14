@@ -1,0 +1,36 @@
+
+.progress-item {
+    margin-bottom: 15px;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.label-text {
+    font-weight: bold;
+    color: #333;
+}
+
+.progress-value {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.progress-fill {
+    background-color: #82ca9d;
+    height: 100%;
+    border-radius: 4px;
+}
+

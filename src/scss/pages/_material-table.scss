@@ -1,0 +1,61 @@
+.material-table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th, tbody td {
+  padding: 10px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+thead th {
+  background-color: #F3F4F6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+tbody td {
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.material-item {
+  display: flex;
+  align-items: center;
+}
+
+.material-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.material-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-code {
+  font-size: 0.8em;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.material-code:hover {
+  opacity: 0.8;
+}
+
+.none-text {
+  font-size: 0.8em;
+  color: #777;
+}

@@ -1,0 +1,49 @@
+.top-customers-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.top-customers-chart h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.recharts-wrapper {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.recharts-bar-rectangles .recharts-bar-rectangle {
+    height: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.recharts-bar-rectangles .recharts-bar-rectangle:hover {
+    opacity: 0.8;
+}
+
+.recharts-axis-tick-value text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    vertical-align: middle;
+    fill: #333;
+}
+
+.recharts-cartesian-grid line {
+    stroke: #eee;
+}
+
+.recharts-tooltip {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+}

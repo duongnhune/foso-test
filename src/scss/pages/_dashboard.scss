@@ -1,0 +1,83 @@
+.dashboard-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-wrapper, .top-section, .bottom-section, .parent-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.top-products-section-wrapper, .section-wrapper {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.data-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.bar-chart, .horizontal-bar-chart, .progress-list, .inventory-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+
+.legend {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+.legend-color {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.legend-color.planned {
+  background-color: blue;
+}
+
+.legend-color.actual {
+  background-color: #1FC583;
+}
+
+.inventory-header {
+  display: grid;
+  grid-template-columns: 50px 100px 200px 80px 100px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}
+
+.base-grid {
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
