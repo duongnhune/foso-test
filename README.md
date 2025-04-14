@@ -1,5 +1,5 @@
 
-# Foso Hub
+# Foso Test
 
 A modern frontend project built with **React**, **TypeScript**, **Vite**, and **Yarn**.
 
@@ -8,7 +8,7 @@ A modern frontend project built with **React**, **TypeScript**, **Vite**, and **
 ## 📁 Project Structure
 
 ```
-foso-hub/
+foso-test/
 ├── public/                 # Static assets
 ├── src/
 │   ├── components/         # Reusable UI components
@@ -29,7 +29,7 @@ foso-hub/
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:duongnhune/foso-hub.git
+git clone git@github.com:duongnhune/foso-test.git
 
 ```
 
